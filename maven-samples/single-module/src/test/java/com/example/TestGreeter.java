@@ -43,7 +43,7 @@ public class TestGreeter {
 
   @Test
   public void greetShouldIncludeGreetingPramod() {
-    String someone = "World, Thanks you making me Happy Pramod123";
+    String someone = "World, Thanks you Pramod123";
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
